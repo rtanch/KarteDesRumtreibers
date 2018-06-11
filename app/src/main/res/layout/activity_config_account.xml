@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/layout_config_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_configName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:gravity="left|center_vertical"
+            android:text="Name:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_config_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.59"
+            android:gravity="right|center_vertical" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_config_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textview_configPassword"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:gravity="left|center_vertical"
+            android:text="Password:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView_config_password"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.59"
+            android:gravity="right|center_vertical" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textview_configDescription"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:gravity="left|center_vertical"
+            android:text="Description:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView_config_Description"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.59"
+            android:gravity="right|center_vertical" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_config_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_saveConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:clickable="true"
+                app:fabSize="normal"
+                app:srcCompat="@android:drawable/ic_menu_save" />
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

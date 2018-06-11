@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Map</string>
+
+    <!-- Strings related to menu bar -->
+    <string name="action_settings">Settings</string>
+    <string name="action_register">Register</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_config_account">Configure Account</string>
+
+    <!-- Strings related to login/registration -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_username_already_exists">Username already taken</string>
+    <string name="error_invalid_password_length">This password is too short</string>
+    <string name="error_invalid_password_number">Password must contain number/s</string>
+    <string name="error_invalid_password_symbol">Password must contain symbol/s</string>
+    <string name="error_invalid_password_match">Passwords do not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Login -->
+    <string name="title_activity_login_def">Login</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <!-- Registration -->
+    <string name="title_activity_register_def">Registration</string>
+    <string name="prompt_password_confirmation">Confirm Password</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_up_short">Register</string>
+
+    <!-- Dialog -->
+    <string name="dialog_choose_name">Choose new name</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="mask_password">••••••••</string>
+    <string name="current_password">Type in current password</string>
+    <string name="false_password">Password is false!</string>
+    <string name="right_password">Password correct</string>
+    <string name="new_password">Type in new password</string>
+    <string name="new_password_confirm">Confirm new password</string>
+    <string name="password_changed">Password successful changed</string>
+    <string name="change_description">Configure your description</string>
+
+
+    <!--Maps-->
+
+
+
+
+
+    <string-array name="time_Intervall">
+        <item>10 sec</item>
+        <item>30 sec</item>
+        <item>5 min</item>
+        <item>10 min</item>
+    </string-array>
+
+    <string-array name="values_intervall">
+        <item>10000</item>
+        <item>30000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+
+    <string-array name="Anzeige_Radius">
+        <item> 25 Km</item>
+        <item> 50 Km</item>
+        <item> 100 Km</item>
+        <item> 200 Km  </item>
+    </string-array>
+
+    <string-array name="values_radius">
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

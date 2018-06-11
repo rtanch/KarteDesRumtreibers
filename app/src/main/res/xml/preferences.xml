@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="Time Intervall"
+        android:summary=" "
+        android:key="time"
+        android:defaultValue="10000"
+        android:entries="@array/time_Intervall"
+        android:entryValues="@array/values_intervall"/>
+
+    <ListPreference
+        android:title="Anzeige Radius"
+        android:summary=" "
+        android:key="radius"
+        android:defaultValue="25"
+        android:entries="@array/Anzeige_Radius"
+        android:entryValues="@array/values_radius"/>
+</PreferenceScreen>

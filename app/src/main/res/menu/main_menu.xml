@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gruppe11.aufgabe_2.MapActivity">
+    <item
+        android:id="@+id/menu_register"
+        android:orderInCategory="100"
+        android:title="@string/action_register"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_login"
+        android:orderInCategory="100"
+        android:title="@string/action_login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_config_account"
+        android:orderInCategory="100"
+        android:title="@string/action_config_account"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+</menu>
